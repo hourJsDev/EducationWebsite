@@ -8,6 +8,7 @@ import {
 import RootLayout from "./Layouts/RootLayout";
 import { Courses, Home } from "./Page";
 import "./App.css";
+import "./Styles/Animation.css"
 const App = () => {
   const router = createBrowserRouter([
     {

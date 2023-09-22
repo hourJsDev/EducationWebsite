@@ -4,7 +4,7 @@ import { useGlobalContext } from "../Context";
 const Card = (props) => {
   const { image, id, video, name, price, duration, filter } = props;
   return (
-    <article className="flex flex-col hover:scale-105 hover:bg-white duration-200 transition-all ease-out">
+    <article className="animation1 flex flex-col hover:scale-105 hover:bg-white duration-200 transition-all ease-out">
       <div className="w-[35rem] relative rounded-tl-lg rounded-tr-lg overflow-hidden h-[20rem]">
         <img className="w-full h-full object-cover" src={image} alt={name} />
         <h2 className="absolute text-white top-[1rem] capitalize left-[1rem]">
