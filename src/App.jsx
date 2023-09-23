@@ -6,7 +6,7 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import RootLayout from "./Layouts/RootLayout";
-import { Courses, Home } from "./Page";
+import { Courses, Home, Mentors } from "./Page";
 import "./App.css";
 import "./Styles/Animation.css"
 const App = () => {
@@ -23,6 +23,10 @@ const App = () => {
           path: "courses",
           element: <Courses />,
         },
+        {
+          path: "mentors",
+          element: <Mentors/>
+        }
       ],
     },
   ]);

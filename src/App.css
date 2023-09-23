@@ -11,4 +11,27 @@ html{
 body{
   background: rgb(249, 249, 249);
 }
+.mentorList::-webkit-scrollbar{
+  display: none;
+}
+.mentorCard:hover div{
+  height: 100%;
+  opacity: 1;
+}
+.mentorName{
+  transition: all .3s ease;
+
+}
+.mentorCard:hover .mentorName{
+  opacity: 1;
+}
+.mentorCard div{
+  overflow: hidden;
+  opacity: 0;
+  transition: all .3s ease;
+  height: 0; 
+  align-items: end;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.799) 0%, rgba(0, 0, 0, 0) 100%, rgba(255,255,255,0) 100%);
+}
 

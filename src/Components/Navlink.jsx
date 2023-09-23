@@ -10,7 +10,7 @@ const Navlink = () => {
         <NavLink to="/courses">Courses</NavLink>
       </li>
       <li className="text-[1.4rem] after:absolute relative after:left-0 after:top-[2rem] after:duration-200 after:transition-all hover:after:w-full after:bg-sky-500 after:w-0 after:h-[3px]">
-        <NavLink to="/home">Mentors</NavLink>
+        <NavLink to="/mentors">Mentors</NavLink>
       </li>
       <li className="text-[1.4rem] after:absolute relative after:left-0 after:top-[2rem] after:duration-200 after:transition-all hover:after:w-full after:bg-sky-500 after:w-0 after:h-[3px]">
         <NavLink to="/home">Community</NavLink>
