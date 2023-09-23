@@ -3,7 +3,7 @@ import React from "react";
 const MentorCard = (props) => {
   const { image, id, name, skill, experience } = props;
   return (
-    <article className="animationRight">
+    <article className="animation1">
       <div className="mentorCard w-[15rem] overflow-hidden rounded-md transition-all duration-200 ease-out h-[35rem] hover:w-[25rem] relative">
         <h3 className="mentorName z-30 absolute top-[.5rem] py-[.2rem] left-[1rem] opacity-0 capitalize rounded-md bg-white px-[1rem] text-[1rem]">{skill}</h3>
         <img
