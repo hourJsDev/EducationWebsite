@@ -25,6 +25,12 @@ body{
 .mentorCard:hover .mentorName{
   opacity: 1;
 }
+.mentorCard:hover img{
+  scale: 1.3;
+}
+.mentorList:hover  .mentorCard:not(:hover) img{
+  filter: blur(2px);
+}
 .mentorCard div{
   overflow: hidden;
   opacity: 0;
