@@ -9,3 +9,4 @@ export { default as MentorCard} from "../Components/MentorCard";
 export { default as MentorList} from "../Components/MentorList"; 
 export { default as SearchBtn } from "../Components/SearchBtn";
 export { default as RootSearchBtn } from "../Components/RootSearchBtn";
+export { default as ToggleBtn } from "../Components/ToggleBtn";

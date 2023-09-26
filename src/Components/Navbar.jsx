@@ -1,6 +1,6 @@
 import React from "react";
 import Navlink from "./Navlink";
-import { Login, SearchBtn } from "../Components";
+import { Login, SearchBtn, ToggleBtn } from "../Components";
 
 const Navbar = () => {
   return (
@@ -12,10 +12,11 @@ const Navbar = () => {
         />
       </div>
       <Navlink />
-      <div className="flex gap-[2rem] items-center">
+      <div className="flex max-md:hidden gap-[2rem] items-center">
         <SearchBtn />
         <Login />
       </div>
+      <ToggleBtn/>
     </nav>
   );
 };
