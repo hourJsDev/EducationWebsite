@@ -53,4 +53,14 @@ body{
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.799) 0%, rgba(0, 0, 0, 0) 100%, rgba(255,255,255,0) 100%);
 }
-
+.dropNav{
+ animation: dropNav .3s ;
+}
+@keyframes dropNav{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}

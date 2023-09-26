@@ -11,8 +11,8 @@ const RootLayout = () => {
     <div>
       <Scroll/>
       {toggle && <DropNavbar/>}
-      <Navbar />
-      <Outlet />
+      {!toggle && <Navbar/>}
+      {!toggle && <Outlet/>}
     </div>
   );
 };
