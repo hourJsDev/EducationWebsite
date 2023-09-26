@@ -12,7 +12,7 @@ const CourseList = () => {
     }
   },[filter])
   return (
-    <div className="flex justify-center gap-[2rem] flex-wrap">
+    <div className="flex justify-center mb-[1rem] gap-[2rem] flex-wrap">
       {course.map((data) => (
         <Card {...data}  key={data.id}  />
       ))}
